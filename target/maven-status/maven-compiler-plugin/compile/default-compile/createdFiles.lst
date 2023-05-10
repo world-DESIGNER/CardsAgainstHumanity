@@ -1,0 +1,5 @@
+org\myplugin\cardsagainsthumanity\GameCommand.class
+org\myplugin\cardsagainsthumanity\GameState.class
+org\myplugin\cardsagainsthumanity\PlayerData.class
+org\myplugin\cardsagainsthumanity\CardsAgainstHumanity.class
+org\myplugin\cardsagainsthumanity\GameListener.class

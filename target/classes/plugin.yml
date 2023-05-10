@@ -1,0 +1,16 @@
+name: CardsAgainstHumanity
+version: '1.0-SNAPSHOT'
+main: org.myplugin.cardsagainsthumanity.CardsAgainstHumanity
+api-version: 1.19
+commands:
+  cah:
+    description: Cards Against Humanity main command
+    usage: /<command> <join|leave|start|choose|scores>
+    aliases: [cardsagainsthumanity, cah7]
+permissions:
+  cardsagainsthumanity.command.cah.basic:
+    description: Basic commands for Cards Against Humanity
+    default: true
+  cardsagainsthumanity.command.cah.op:
+    description: Operator commands for Cards Against Humanity
+    default: op
